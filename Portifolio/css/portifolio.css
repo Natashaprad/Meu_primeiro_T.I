@@ -1,0 +1,145 @@
+/* Estilo global */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    color: #e9dcdc;
+    
+   
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Estilo do cabeçalho */
+header {
+    position: relative;
+    background-color: #000000;
+    color: #000000;
+    padding: 20px 0;
+    box-shadow: 0 2px 5px rgb(0, 0, 0);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    letter-spacing: 2px;
+}
+
+nav {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffd700;
+}
+
+/* Estilo do carrossel */
+.carousel-item img {
+    max-height: 400px;
+    object-fit: cover;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 5%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #000000;
+}
+
+/* Estilo das seções */
+section {
+    padding: 50px 0;
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2em;
+    color: #0e0d0d;
+}
+
+/* Estilo do portfólio */
+.portfolio-item {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.portfolio-item img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.portfolio-item img:hover {
+    transform: scale(1.05);
+}
+
+.portfolio-item h3 {
+    margin: 10px 0;
+    font-size: 1.5em;
+}
+
+.portfolio-item p {
+    font-size: 1.1em;
+    color: #ffffff;
+}
+
+/* Estilo do rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px;
+    font-size: 1.2em;
+}
+.carousel-item img {
+    width: 200px;/* Faz a imagem ocupar toda a largura do carrossel */
+    height: 500px; /* Faz a imagem ocupar toda a altura do carrossel */
+    object-fit: cover; /* Mantém a proporção da imagem e preenche todo o espaço disponível */
+}
+
+.carousel-item {
+    position: relative;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: rgba(177, 136, 98, 0.5); /* Cor do plano de fundo com transparência */
+    padding: 20px; /* Tamanho do espaço ao redor do texto */
+    color: #f8f8f8; /* Cor do texto */
+    font-family: 'Roboto', sans-serif;
+}
+
